@@ -35,10 +35,13 @@
   padding: 6px 16px;
   font-weight: bold;
   border: 1px solid #000;
+  width: 100px;
   transition: 0.3s ease background-color;
 }
 
 .tw-followCard-button:hover {
+  background: #09f;
+  color: #fff;
   opacity: 0.8;
 }
 
@@ -47,10 +50,8 @@
 }
 
 .tw-followCard-button.is-following {
-  border: 1px solid #bbb;
-  background: transparent;
+  background-color: #09f;
   color: #fff;
-  width: 140px;
 }
 
 .tw-followCard-button.is-following:hover {
